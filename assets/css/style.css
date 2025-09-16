@@ -112,7 +112,7 @@ margin-left: 20px;
    left: 55px;
 }
 
-.img_relaxed_fit, .img_roses_tee, .img_pastel, .img_tee, .img_sweater{
+.img_relaxed_fit, .img_roses_tee, .img_pastel, .img_tee, .img_sweater, .img_stripe{
       position: relative;
      display: inline-block; 
   
@@ -128,4 +128,12 @@ margin-left: 20px;
    bottom: 62px;
    
 
+}
+.heart{
+    position: absolute;
+    background-color: white;
+    bottom: 390px;
+    left: 270px;
+    padding: 7px;
+    top: 5px;
 }
