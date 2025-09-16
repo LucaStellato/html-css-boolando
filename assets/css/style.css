@@ -3,6 +3,9 @@
       padding: 0;
       box-sizing: border-box;
 }
+body{
+    font-family: arial;
+}
 
 .debug .head{
 
@@ -13,24 +16,71 @@
 .debug nav{
    
 }
-.debug .relaxed_fit, .roses_tee, .pastel, .tee, .stripe, .sweater{
+.debug .relaxed_fit, .debug .roses_tee, .debug .pastel, .debug .tee, .debug .stripe, .debug .sweater{
     background-color: blue;
     width: 300px;
     height: 400px;
    margin-bottom: 20px;
 }
-.debug .roses_tee, .pastel, .stripe, .sweater{
+ .roses_tee, .pastel, .stripe, .sweater{
 margin-left: 20px;
 
 }
-.debug .container, .other{
+.container, .other{
     width: 70%;
     flex-direction: row;
     display: flex;
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
  .debug footer{
     background-color: black;
     height: 80px;
     
  }
+
+
+
+
+
+ header{
+    background-color: #ff6900;
+ }
+ nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 30px;
+    a{
+        margin-right: 6px;
+    }
+ }
+ 
+
+    
+ 
+ .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+    img{
+        width: 150px;
+    }
+ }
+.icon
+{
+    color: white;
+}
+.relaxed_fit, .roses_tee, .pastel{
+  img{
+      width: 300px;
+    height: 400px;
+        margin-bottom: 20px;
+  }
+}
+
+
