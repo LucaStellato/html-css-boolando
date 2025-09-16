@@ -3,3 +3,34 @@
       padding: 0;
       box-sizing: border-box;
 }
+
+.debug .head{
+
+    height: 60px;
+    background-color: orange;
+    margin-bottom: 20px;
+}
+.debug nav{
+   
+}
+.debug .relaxed_fit, .roses_tee, .pastel, .tee, .stripe, .sweater{
+    background-color: blue;
+    width: 300px;
+    height: 400px;
+   margin-bottom: 20px;
+}
+.debug .roses_tee, .pastel, .stripe, .sweater{
+margin-left: 20px;
+
+}
+.debug .container, .other{
+    width: 70%;
+    flex-direction: row;
+    display: flex;
+    margin: 0 auto;
+}
+ .debug footer{
+    background-color: black;
+    height: 80px;
+    
+ }
