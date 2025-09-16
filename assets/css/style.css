@@ -6,7 +6,7 @@
 body{
     font-family: arial;
 }
-
+/*DEBUG*/
 .debug .head{
 
     height: 60px;
@@ -25,6 +25,18 @@ body{
  .roses_tee, .pastel, .stripe, .sweater{
 margin-left: 20px;
 
+.debug footer{
+    background-color: black;
+    height: 80px;
+    
+ }
+
+
+
+
+
+
+/*DEBUG*/
 }
 .container, .other{
     width: 70%;
@@ -35,11 +47,7 @@ margin-left: 20px;
     align-items: center;
     margin-top: 40px;
 }
- .debug footer{
-    background-color: black;
-    height: 80px;
-    
- }
+ 
 
 
 
@@ -75,12 +83,13 @@ margin-left: 20px;
 {
     color: white;
 }
-.relaxed_fit, .roses_tee, .pastel, .tee, .stripe, .sweater{
+.box{
 
     img{
       width: 300px;
     height: 400px;
     margin-bottom: 20px;
+    margin-right: 30px;
   }
  
 }
@@ -112,9 +121,21 @@ margin-left: 20px;
    left: 55px;
 }
 
-.img_relaxed_fit, .img_roses_tee, .img_pastel, .img_tee, .img_sweater, .img_stripe{
+.card{
       position: relative;
      display: inline-block; 
+        .back{
+        display: none;
+   }
+   &:hover{
+        .back{
+            display: block;
+
+        }
+        .front{
+            display: none;
+        }
+    }
   
 }
 .only_green{
@@ -136,4 +157,7 @@ margin-left: 20px;
     left: 270px;
     padding: 7px;
     top: 5px;
+    &:hover{
+        color:red
+    }
 }
